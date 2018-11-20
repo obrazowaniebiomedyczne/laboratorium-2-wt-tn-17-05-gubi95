@@ -103,7 +103,7 @@ def own_simple_erosion(image):
 cv2.imwrite("results/crushed_own_simple_erosion.png",
             own_simple_erosion(cv2.imread("figures/crushed.png", 0)))
 
-# Zadanie na ocenę bardzo dobrą1111111
+# Zadanie na ocenę bardzo dobrą
 def own_erosion(image, kernel=None):
     new_image = np.zeros(image.shape, dtype=image.dtype)
 
